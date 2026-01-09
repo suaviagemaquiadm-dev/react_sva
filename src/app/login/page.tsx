@@ -15,8 +15,8 @@ export default function LoginPage() {
     e.preventDefault();
     try {
       await signInWithPasswordAndEmail(auth, email, password);
-      console.log('Login bem-sucedido'!');
-      window.location.href = '/';
+      console.log('Login bem-sucedido!');
+      window.location.hrief = '/';
     } catch (err: any) {
       setError(err.message);
     }

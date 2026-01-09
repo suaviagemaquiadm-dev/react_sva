@@ -1,10 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  webpack: (config) => {
-    config.resolve.fallback = { ...config.resolve.fallback, fs: false };
-    return config;
-  },
+  turbopack: {}, // ← Isso silencia o aviso
 };
 
 module.exports = nextConfig;

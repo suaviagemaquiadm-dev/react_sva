@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="40" viewBox="0 0 180 40">
+  <!-- Fundo branco -->
+  <rect width="180" height="40" fill="#ffffff"/>
+
+  <!-- Pino Vermelho (Origem) -->
+  <path d="M30,20 C30,10 40,10 40,20 C40,30 30,30 30,20 Z" fill="#E74C3C"/>
+  <circle cx="35" cy="15" r="5" fill="#ffffff"/>
+  <circle cx="35" cy="25" r="3" fill="#E74C3C"/>
+
+  <!-- Pino Verde (Destino) -->
+  <path d="M130,20 C130,10 140,10 140,20 C140,30 130,30 130,20 Z" fill="#2ECC71"/>
+  <circle cx="135" cy="15" r="5" fill="#ffffff"/>
+  <circle cx="135" cy="25" r="3" fill="#2ECC71"/>
+
+  <!-- Linha tracejada curva conectando os pinos -->
+  <path d="M35,25 Q85,5 135,25" stroke="#95A5A6" stroke-width="2" stroke-dasharray="4 2" fill="none"/>
+
+  <!-- Texto "Sua Viagem Aqui" ao lado -->
+  <text x="150" y="25" font-family="Arial, sans-serif" font-size="16" fill="#0056B3" font-weight="bold">
+    Sua Viagem Aqui
+  </text>
+</svg>
